@@ -34,7 +34,7 @@ public class DrillCategoryActivity extends AppCompatActivity {
         drills.add(new Drill(getString(R.string.drill_dewalt_title), getString(R.string.drill_dewalt_info), R.drawable.dewalt));
 
         listViewDrills = findViewById(R.id.listViewDrills);
-        // создаем адаптер для отображения drills в ListView
+        // создаем адаптер для отображения drills в ListView, еще нужно переопределить toString()
         ArrayAdapter<Drill> adapter = new ArrayAdapter<>(getApplicationContext(),
                 android.R.layout.simple_list_item_1, drills);
         listViewDrills.setAdapter(adapter);
