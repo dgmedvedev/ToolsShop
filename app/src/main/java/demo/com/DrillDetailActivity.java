@@ -10,7 +10,6 @@ public class DrillDetailActivity extends AppCompatActivity {
 
     private TextView textView2;
     private TextView textView3;
-    private TextView textView4;
     private String title;
     private String info;
     private int id;
@@ -27,10 +26,8 @@ public class DrillDetailActivity extends AppCompatActivity {
 
         textView2 = findViewById(R.id.textView2);
         textView3 = findViewById(R.id.textView3);
-        textView4 = findViewById(R.id.textView4);
 
         textView2.setText(title);
         textView3.setText(info);
-        textView4.setText(id);
     }
 }

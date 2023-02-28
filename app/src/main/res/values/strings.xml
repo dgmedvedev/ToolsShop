@@ -16,4 +16,5 @@
     <string name="drill_interskol_info">Дрель Интерскол, кое-как работает</string>
     <string name="drill_makita_info">Дрель Makita, еще не убита</string>
     <string name="drill_dewalt_info">Дрель DeWalt, сделал китаец Walt</string>
+    <string name="logo_tool">Логотип инструмента</string>
 </resources>
